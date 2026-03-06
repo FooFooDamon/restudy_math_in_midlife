@@ -24,6 +24,8 @@
 
 \begin{document}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \def\DocTitle{中佬学数}
 \def\DocAuthor{Man Hung-Coeng}
 \def\GithubURL{https://github.com/FooFooDamon}
@@ -42,7 +44,7 @@
 
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Cover/Title
+% Cover or Title
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \iftrue
@@ -66,7 +68,7 @@
 
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Preface/Abstract
+% Preface or Abstract
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \renewcommand{\abstractname}{\Large{序言}\vspace{16pt}}
@@ -87,7 +89,7 @@
 		}
 	\end{center}
 	\begin{flushright}
-		于2026年3月1日创建于GitHub
+		于2026年3月1日创建于杰洽
 		\footnote{
 			项目地址：\url{\GithubURL/restudy_math_in_midlife}
 		}
@@ -98,7 +100,7 @@
 
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Contents/Catalogue
+% Contents (Catalogue)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \renewcommand{\contentsname}{目录}
@@ -108,12 +110,16 @@
 
 \newpage
 
+\setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Body Content
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 
-% 待补充……
+\input{chapters/derived_function}
 
 \end{document}
